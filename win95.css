@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+body {
+  font-family: "VT323", monospace;
+  background: #008080;
+  color: white;
+  width: 100%;
+}
+
+::selection {
+  background-color: #08216b;
+  color: #d5d5d5;
+}
+
+/*BUTTON*/
+
+.btn {
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  border-right-color: #424242;
+  border-bottom-color: #424242;
+  background: silver;
+  color: black;
+  padding: 0 0 4px;
+  border-radius: 1px;
+}
+
+.btn:hover {
+  border: 2px inset #fff;
+  background: silver;
+  color: #424242;
+  box-shadow: -1px -1px #000;
+}
+
+.btn:focus {
+  border: 2px inset #fff !important;
+  background: silver;
+  color: #424242;
+  box-shadow: -1px -1px #000 !important;
+  outline: 0 !important;
+  background: url(assets/background.bmp);
+}
+
+.btn:active {
+  border: 2px inset #fff !important;
+  color: #424242;
+  box-shadow: -1px -1px #000 !important;
+  outline: 0 !important;
+  background: url(assets/background.bmp);
+}
+
+.btn-link {
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  border-right-color: #424242;
+  border-bottom-color: #424242;
+  background: silver;
+  color: black;
+}
+
+.btn-link:focus {
+  border: 2px inset #fff !important;
+  background: silver;
+  color: #424242;
+  box-shadow: -1px -1px #000 !important;
+  outline: 0 !important;
+  background: url(assets/background.bmp);
+}
+
+.btn-link:hover {
+  border: 2px inset #fff;
+  background: silver;
+  color: #424242;
+  box-shadow: -1px -1px #000;
+  text-decoration: none;
+}
+
+.btn-link:active {
+  border: 2px inset #fff !important;
+  color: #424242;
+  box-shadow: -1px -1px #000 !important;
+  outline: 0 !important;
+  background: url(assets/background.bmp);
+  text-decoration: none;
+}
+
+.btn-link {
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonface;
+  border-right-color: #424242;
+  border-bottom-color: #424242;
+  background: silver;
+  color: black;
+}
+
+.btn-link:focus {
+  border: 2px inset #fff !important;
+  background: silver;
+  color: #424242;
+  box-shadow: -1px -1px #000 !important;
+  outline: 0 !important;
+  background: url(assets/background.bmp);
+}
+
+.btn-link:hover {
+  border: 2px inset #fff;
+  background: silver;
+  color: #424242;
+  box-shadow: -1px -1px #000;
+  text-decoration: none;
+}
+
+.btn-link:active {
+  border: 2px inset #fff !important;
+  color: #424242;
+  box-shadow: -1px -1px #000 !important;
+  outline: 0 !important;
+  background: url(assets/background.bmp);
+  text-decoration: none;
+}
+
+/*CARDS*/
+
+.card {
+  border: solid;
+  border-width: 2px;
+  border-bottom-color: #424242;
+  border-right-color: #424242;
+  border-left-color: #fff;
+  border-top-color: #fff;
+  background: #c0c0c0;
+  color: #212529;
+  z-index: 9999;
+}
+
+.card-header {
+  background-color: #08216b;
+  color: #fff;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  text-align: left;
+}
+
+.card-header.icon {
+  padding-left: 4px;
+}
+
+/*FOOTER*/
+
+.taskbar {
+  background-color: silver;
+  position: static;
+  bottom: 0;
+  border-top: 2px outset #fff;
+  z-index: 99999;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+/*ICONS*/
+
+.icon-16 {
+  margin-bottom: 2px;
+  max-height: 19px;
+}
+
+/*MODAL*/
+
+.modal-content {
+  box-shadow: 1px 1px 0 0 #424242;
+  border: 1px solid #fff;
+  border-right-color: #848484;
+  border-bottom-color: #848484;
+  background: silver;
+  padding: 2px;
+}
+
+.modal-header {
+  height: 32px;
+  background-color: #08216b;
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.modal-header .btn {
+  margin-top: 5px;
+  padding-bottom: 10px;
+  height: 22px;
+  width: 22px;
+}
+
+.modal-header .btn span {
+  font-family: arial;
+  position: absolute;
+  top: 4.5px;
+  right: 12.2px;
+}
+
+.modal-title {
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+
+/* ui-desktop */
+
+.icon-desktop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 72px;
+  z-index: 9999;
+}
+
+.ui-icon {
+  text-align: center;
+  vertical-align: top;
+  width: 72px;
+  z-index: 0;
+  line-height: 12px;
+  margin: 0;
+  padding: 8px 1px;
+}
+
+.ui-icon a span {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-size: 18px;
+}
+
+.ui-icon a:hover {
+  text-decoration: none;
+}
+
+/* index */
+
+.welcome {
+  margin-top: 5%;
+  margin-bottom: 55px;
+}
+
+.welcome .card .card-body img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.welcome .card-body p {
+  font-size: 1.3rem;
+}
+
+hr {
+  border-bottom: 1px solid #212529;
+}
+
+/* projects */
+
+.projects {
+  margin-top: 5%;
+  margin-bottom: 55px;
+}
+
+.projects .card-body .card a {
+  color: #000;
+}
+
+.projects .card-body .card h3 {
+  margin: 8px 0 0 15px;
+  text-transform: uppercase;
+}
+
+.projects .card-body a h3:hover {
+  text-decoration: underline;
+}
+
+.projects .card-body .card p {
+  margin: 0 0 5px 15px;
+  font-size: 19px;
+  width: 90%;
+}
+
+.projects .card-body a:hover {
+  text-decoration: none;
+}
+
+/* contact */
+
+.icon-16-4{
+    max-height: 40px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.contact {
+  margin-top: 5%;
+  margin-bottom: 55px;
+}
+
+.contact .card-body a {
+  text-align: justify;
+  padding-left: 20px;
+  font-size: 19px;
+  opacity: 0.9;
+}
+
+/* skills */
+
+.skills {
+  margin-top: 5%;
+  margin-bottom: 55px;
+}
+
+.skills .card .card-body img {
+  width: 60%;
+  height: auto;
+  opacity: 0.9;
+}
+
+.figure {
+  display: inline-block;
+  margin: 0 0 1rem;
+}
